@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		950EB21125D8009B00ED9518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EB21025D8009B00ED9518 /* AppDelegate.swift */; };
 		950EB21325D8009B00ED9518 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EB21225D8009B00ED9518 /* SceneDelegate.swift */; };
-		950EB21525D8009B00ED9518 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EB21425D8009B00ED9518 /* ViewController.swift */; };
 		950EB21825D8009B00ED9518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950EB21625D8009B00ED9518 /* Main.storyboard */; };
 		950EB21B25D8009B00ED9518 /* Instagram_Clone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 950EB21925D8009B00ED9518 /* Instagram_Clone.xcdatamodeld */; };
 		950EB21D25D8009C00ED9518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950EB21C25D8009C00ED9518 /* Assets.xcassets */; };
 		950EB22025D8009C00ED9518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950EB21E25D8009C00ED9518 /* LaunchScreen.storyboard */; };
+		950EB22D25D8010B00ED9518 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EB22B25D8010B00ED9518 /* HomeViewController.swift */; };
+		950EB22E25D8010B00ED9518 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 950EB22C25D8010B00ED9518 /* HomeViewController.xib */; };
+		950EB23225D8012E00ED9518 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EB23125D8012E00ED9518 /* BaseViewController.swift */; };
+		950EB23725D8097100ED9518 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EB23525D8097100ED9518 /* LoginViewController.swift */; };
+		950EB23825D8097100ED9518 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 950EB23625D8097100ED9518 /* LoginViewController.xib */; };
+		950EB23C25D8097D00ED9518 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EB23A25D8097D00ED9518 /* SignUpViewController.swift */; };
+		950EB23D25D8097D00ED9518 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 950EB23B25D8097D00ED9518 /* SignUpViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		950EB20D25D8009B00ED9518 /* Instagram Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		950EB21025D8009B00ED9518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		950EB21225D8009B00ED9518 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		950EB21425D8009B00ED9518 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		950EB21725D8009B00ED9518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		950EB21A25D8009B00ED9518 /* Instagram_Clone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Instagram_Clone.xcdatamodel; sourceTree = "<group>"; };
 		950EB21C25D8009C00ED9518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		950EB21F25D8009C00ED9518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		950EB22125D8009C00ED9518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		950EB22B25D8010B00ED9518 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		950EB22C25D8010B00ED9518 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		950EB23125D8012E00ED9518 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		950EB23525D8097100ED9518 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		950EB23625D8097100ED9518 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		950EB23A25D8097D00ED9518 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		950EB23B25D8097D00ED9518 /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +70,38 @@
 		950EB20F25D8009B00ED9518 /* Instagram Clone */ = {
 			isa = PBXGroup;
 			children = (
+				950EB22A25D800F900ED9518 /* controller */,
+				950EB22825D800B000ED9518 /* apputils */,
 				950EB21025D8009B00ED9518 /* AppDelegate.swift */,
 				950EB21225D8009B00ED9518 /* SceneDelegate.swift */,
-				950EB21425D8009B00ED9518 /* ViewController.swift */,
-				950EB21625D8009B00ED9518 /* Main.storyboard */,
-				950EB21C25D8009C00ED9518 /* Assets.xcassets */,
-				950EB21E25D8009C00ED9518 /* LaunchScreen.storyboard */,
 				950EB22125D8009C00ED9518 /* Info.plist */,
-				950EB21925D8009B00ED9518 /* Instagram_Clone.xcdatamodeld */,
 			);
 			path = "Instagram Clone";
+			sourceTree = "<group>";
+		};
+		950EB22825D800B000ED9518 /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				950EB21625D8009B00ED9518 /* Main.storyboard */,
+				950EB21E25D8009C00ED9518 /* LaunchScreen.storyboard */,
+				950EB21925D8009B00ED9518 /* Instagram_Clone.xcdatamodeld */,
+				950EB21C25D8009C00ED9518 /* Assets.xcassets */,
+			);
+			path = apputils;
+			sourceTree = "<group>";
+		};
+		950EB22A25D800F900ED9518 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				950EB23125D8012E00ED9518 /* BaseViewController.swift */,
+				950EB22B25D8010B00ED9518 /* HomeViewController.swift */,
+				950EB22C25D8010B00ED9518 /* HomeViewController.xib */,
+				950EB23525D8097100ED9518 /* LoginViewController.swift */,
+				950EB23625D8097100ED9518 /* LoginViewController.xib */,
+				950EB23A25D8097D00ED9518 /* SignUpViewController.swift */,
+				950EB23B25D8097D00ED9518 /* SignUpViewController.xib */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,9 +161,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				950EB23825D8097100ED9518 /* LoginViewController.xib in Resources */,
 				950EB22025D8009C00ED9518 /* LaunchScreen.storyboard in Resources */,
 				950EB21D25D8009C00ED9518 /* Assets.xcassets in Resources */,
 				950EB21825D8009B00ED9518 /* Main.storyboard in Resources */,
+				950EB23D25D8097D00ED9518 /* SignUpViewController.xib in Resources */,
+				950EB22E25D8010B00ED9518 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,10 +177,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				950EB21525D8009B00ED9518 /* ViewController.swift in Sources */,
+				950EB23725D8097100ED9518 /* LoginViewController.swift in Sources */,
+				950EB23C25D8097D00ED9518 /* SignUpViewController.swift in Sources */,
+				950EB23225D8012E00ED9518 /* BaseViewController.swift in Sources */,
 				950EB21125D8009B00ED9518 /* AppDelegate.swift in Sources */,
 				950EB21B25D8009B00ED9518 /* Instagram_Clone.xcdatamodeld in Sources */,
 				950EB21325D8009B00ED9518 /* SceneDelegate.swift in Sources */,
+				950EB22D25D8010B00ED9518 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
